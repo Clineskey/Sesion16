@@ -53,18 +53,20 @@
             // Lb_Id
             // 
             this.Lb_Id.AutoSize = true;
+            this.Lb_Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Id.Location = new System.Drawing.Point(68, 65);
             this.Lb_Id.Name = "Lb_Id";
-            this.Lb_Id.Size = new System.Drawing.Size(18, 16);
+            this.Lb_Id.Size = new System.Drawing.Size(20, 16);
             this.Lb_Id.TabIndex = 1;
             this.Lb_Id.Text = "Id";
             // 
             // Lb_Nombre
             // 
             this.Lb_Nombre.AutoSize = true;
+            this.Lb_Nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Nombre.Location = new System.Drawing.Point(68, 101);
             this.Lb_Nombre.Name = "Lb_Nombre";
-            this.Lb_Nombre.Size = new System.Drawing.Size(56, 16);
+            this.Lb_Nombre.Size = new System.Drawing.Size(62, 16);
             this.Lb_Nombre.TabIndex = 2;
             this.Lb_Nombre.Text = "Nombre";
             // 
@@ -142,7 +144,7 @@
             this.Controls.Add(this.Lb_Id);
             this.Controls.Add(this.Bt_Crear);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Crear Estudiante";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
