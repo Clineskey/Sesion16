@@ -42,9 +42,10 @@
             // 
             // Bt_Crear
             // 
-            this.Bt_Crear.Location = new System.Drawing.Point(128, 229);
+            this.Bt_Crear.Location = new System.Drawing.Point(45, 186);
+            this.Bt_Crear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Bt_Crear.Name = "Bt_Crear";
-            this.Bt_Crear.Size = new System.Drawing.Size(114, 54);
+            this.Bt_Crear.Size = new System.Drawing.Size(167, 44);
             this.Bt_Crear.TabIndex = 0;
             this.Bt_Crear.Text = "Crear Estudiante";
             this.Bt_Crear.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             this.Lb_Id.AutoSize = true;
             this.Lb_Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_Id.Location = new System.Drawing.Point(68, 65);
+            this.Lb_Id.Location = new System.Drawing.Point(51, 53);
+            this.Lb_Id.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Id.Name = "Lb_Id";
-            this.Lb_Id.Size = new System.Drawing.Size(20, 16);
+            this.Lb_Id.Size = new System.Drawing.Size(18, 13);
             this.Lb_Id.TabIndex = 1;
             this.Lb_Id.Text = "Id";
             // 
@@ -64,56 +66,63 @@
             // 
             this.Lb_Nombre.AutoSize = true;
             this.Lb_Nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_Nombre.Location = new System.Drawing.Point(68, 101);
+            this.Lb_Nombre.Location = new System.Drawing.Point(51, 82);
+            this.Lb_Nombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Nombre.Name = "Lb_Nombre";
-            this.Lb_Nombre.Size = new System.Drawing.Size(62, 16);
+            this.Lb_Nombre.Size = new System.Drawing.Size(50, 13);
             this.Lb_Nombre.TabIndex = 2;
             this.Lb_Nombre.Text = "Nombre";
             // 
             // Lb_Apellido
             // 
             this.Lb_Apellido.AutoSize = true;
-            this.Lb_Apellido.Location = new System.Drawing.Point(68, 147);
+            this.Lb_Apellido.Location = new System.Drawing.Point(51, 119);
+            this.Lb_Apellido.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Apellido.Name = "Lb_Apellido";
-            this.Lb_Apellido.Size = new System.Drawing.Size(57, 16);
+            this.Lb_Apellido.Size = new System.Drawing.Size(44, 13);
             this.Lb_Apellido.TabIndex = 3;
             this.Lb_Apellido.Text = "Apellido";
             // 
             // Lb_Promedio
             // 
             this.Lb_Promedio.AutoSize = true;
-            this.Lb_Promedio.Location = new System.Drawing.Point(56, 188);
+            this.Lb_Promedio.Location = new System.Drawing.Point(42, 153);
+            this.Lb_Promedio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Promedio.Name = "Lb_Promedio";
-            this.Lb_Promedio.Size = new System.Drawing.Size(66, 16);
+            this.Lb_Promedio.Size = new System.Drawing.Size(51, 13);
             this.Lb_Promedio.TabIndex = 4;
             this.Lb_Promedio.Text = "Promedio";
             // 
             // Tx_Id
             // 
-            this.Tx_Id.Location = new System.Drawing.Point(128, 62);
+            this.Tx_Id.Location = new System.Drawing.Point(96, 50);
+            this.Tx_Id.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Tx_Id.Name = "Tx_Id";
-            this.Tx_Id.Size = new System.Drawing.Size(153, 22);
+            this.Tx_Id.Size = new System.Drawing.Size(116, 20);
             this.Tx_Id.TabIndex = 6;
             // 
             // Tx_Nombre
             // 
-            this.Tx_Nombre.Location = new System.Drawing.Point(128, 101);
+            this.Tx_Nombre.Location = new System.Drawing.Point(96, 82);
+            this.Tx_Nombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Tx_Nombre.Name = "Tx_Nombre";
-            this.Tx_Nombre.Size = new System.Drawing.Size(153, 22);
+            this.Tx_Nombre.Size = new System.Drawing.Size(116, 20);
             this.Tx_Nombre.TabIndex = 7;
             // 
             // Tx_Apellido
             // 
-            this.Tx_Apellido.Location = new System.Drawing.Point(128, 147);
+            this.Tx_Apellido.Location = new System.Drawing.Point(96, 119);
+            this.Tx_Apellido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Tx_Apellido.Name = "Tx_Apellido";
-            this.Tx_Apellido.Size = new System.Drawing.Size(153, 22);
+            this.Tx_Apellido.Size = new System.Drawing.Size(116, 20);
             this.Tx_Apellido.TabIndex = 8;
             // 
             // Tx_Promedio
             // 
-            this.Tx_Promedio.Location = new System.Drawing.Point(128, 185);
+            this.Tx_Promedio.Location = new System.Drawing.Point(96, 150);
+            this.Tx_Promedio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Tx_Promedio.Name = "Tx_Promedio";
-            this.Tx_Promedio.Size = new System.Drawing.Size(153, 22);
+            this.Tx_Promedio.Size = new System.Drawing.Size(116, 20);
             this.Tx_Promedio.TabIndex = 10;
             // 
             // Lvw_Estudiante
@@ -121,18 +130,19 @@
             this.Lvw_Estudiante.FullRowSelect = true;
             this.Lvw_Estudiante.GridLines = true;
             this.Lvw_Estudiante.HideSelection = false;
-            this.Lvw_Estudiante.Location = new System.Drawing.Point(329, 50);
+            this.Lvw_Estudiante.Location = new System.Drawing.Point(247, 41);
+            this.Lvw_Estudiante.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Lvw_Estudiante.Name = "Lvw_Estudiante";
-            this.Lvw_Estudiante.Size = new System.Drawing.Size(687, 355);
+            this.Lvw_Estudiante.Size = new System.Drawing.Size(516, 289);
             this.Lvw_Estudiante.TabIndex = 11;
             this.Lvw_Estudiante.UseCompatibleStateImageBehavior = false;
             this.Lvw_Estudiante.View = System.Windows.Forms.View.Details;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 450);
+            this.ClientSize = new System.Drawing.Size(786, 366);
             this.Controls.Add(this.Lvw_Estudiante);
             this.Controls.Add(this.Tx_Promedio);
             this.Controls.Add(this.Tx_Apellido);
@@ -143,6 +153,7 @@
             this.Controls.Add(this.Lb_Nombre);
             this.Controls.Add(this.Lb_Id);
             this.Controls.Add(this.Bt_Crear);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Crear Estudiante";
             this.Load += new System.EventHandler(this.Form1_Load);
